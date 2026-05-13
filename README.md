@@ -92,6 +92,10 @@ With this template, Claude Code will:
 - Respect the permission settings in `.claude/settings.local.json`
 - Ignore locally defined files per `.gitignore`
 
+### Using caveman for token efficiency
+
+This template includes guidance for installing and using the [caveman](https://github.com/JuliusBrussee/caveman) plugin, which compresses Claude Code's output to save ~75% of tokens while preserving technical accuracy. After installing caveman (see instructions in `CLAUDE.md`), it activates automatically in full mode. You can switch compression levels with `/caveman lite|full|ultra` or revert to normal speech with "stop caveman" or "normal mode".
+
 For more information on Claude Code features, refer to the official documentation.
 
 ---
