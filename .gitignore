@@ -6,6 +6,12 @@ config.json
 # Claude config files with tokens
 .claude/settings.local.json
 
+# Logs and databases
+*.log
+*.db
+*.sqlite
+logs/
+
 # Python
 __pycache__/
 *.py[cod]
