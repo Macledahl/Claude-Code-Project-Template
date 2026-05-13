@@ -47,6 +47,10 @@ The following files/directories are intentionally excluded from Git:
 | `config.json` | Local configuration that varies between developers or environments |
 | `.env` | Environment variables (often containing secrets) |
 | `.claude/settings.local.json` | Local Claude Code settings overrides (not committed to repository) |
+| `*.log` | Log files that may contain sensitive information or debugging data |
+| `*.db` | Database files that may contain sensitive data |
+| `*.sqlite` | SQLite database files that may contain sensitive data |
+| `logs/` | Log directories that may contain sensitive information or debugging data |
 | `__pycache__/` | Python bytecode cache directories |
 | `*.py[cod]` | Compiled Python files (.pyc, .pyo, .pyd) |
 | *$py.class | Compiled Python artifacts (Jython/PyPy) |
