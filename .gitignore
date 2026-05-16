@@ -5,6 +5,7 @@ config.json
 
 # Claude config files with tokens
 .claude/settings.local.json
+CLAUDE.local.md
 
 # Logs and databases
 *.log
@@ -24,3 +25,13 @@ ENV/
 *.egg-info/
 dist/
 build/
+
+# Accidental web-page saves
+hooks/*.html
+hooks/*_files/
+
+# Editor artifacts
+*.swp
+*~
+.devswarm-temp/CLAUDE.local.md
+CLAUDE.local.md
